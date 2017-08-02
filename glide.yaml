@@ -1,0 +1,13 @@
+package: github.com/wcgwuxinwei/dict_center
+import:
+- package: github.com/Sirupsen/logrus
+- package: github.com/labstack/echo
+  subpackages:
+  - middleware
+- package: gopkg.in/mgo.v2
+- package: golang.org/x/sys/unix
+  repo: https://github.com/golang/sys
+  vcs: git
+- package: golang.org/x/crypto/ssh/terminal
+  repo: https://github.com/golang/crypto.git
+  vcs: git
